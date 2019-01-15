@@ -157,7 +157,7 @@ class ChatScreenState extends State<ChatScreen>
   }
 
   void onData(_data) {
-    var data = JSON.decode(_data);
+    var data = json.decode(_data);
     switch (data["type"]) {
       case "ping":
         break;
